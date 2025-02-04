@@ -20,6 +20,8 @@ public class ControlStatements {
             System.out.println("Not eligible to vote!");
         }
 
+
+
         int num = 0;
         if (num > 0) {
             System.out.println("Positive!");
@@ -29,6 +31,8 @@ public class ControlStatements {
             System.out.println("Negative");
         }
 
+
+        
         int day = 5;
         switch (day) {
             case 1:
@@ -52,7 +56,7 @@ public class ControlStatements {
             case 7:
                 System.out.println("Saturday");
                 break;
-            default: // Fixed this line
+            default:
                 System.out.println("Invalid day");
         }
     }
