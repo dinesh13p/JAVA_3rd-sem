@@ -1,4 +1,4 @@
-public class Operators {
+public class L3_Operators {
     
     public static void main(String[] args) {
         // Operators: Operators are the symbol used to perform operations

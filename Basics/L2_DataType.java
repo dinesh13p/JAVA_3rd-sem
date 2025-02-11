@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class DataType {
+public class L2_DataType {
     public static void main(String[] args) {
         /*
          * Variables: Variables are like containers where values can store ...

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class OddOrEven {
+public class A2_OddOrEven {
     public static void main(String[] args) {
         // Check whether number is odd or even
         Scanner check = new Scanner(System.in);

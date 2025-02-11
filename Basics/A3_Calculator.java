@@ -1,4 +1,4 @@
-public class Calculator {
+public class A3_Calculator {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 import java.util.Scanner; // Package
 
-public class AskInput {
+public class L5_AskInput {
 
     public static void main(String[] args) {
         
