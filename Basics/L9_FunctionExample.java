@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class L9_FunctionExample {
 
     static int addition(int a, int b){
@@ -7,6 +8,10 @@ public class L9_FunctionExample {
 
     static int multiplication(int c, int d, int e){
         return c * d * e;
+    }
+
+    static int division(int i, int j){
+        return i / j;
     }
     public static void main(String[] args) {
 
@@ -32,7 +37,22 @@ public class L9_FunctionExample {
         System.out.println("Multiplication of given three numbers: "+ multiplyResult);
         multiply.close();
 
+        
+        //Division
+        Scanner divide = new Scanner(System.in);
+        System.out.print("Enter two numbers to divide: ");
+
+        int i = divide.nextInt();
+        int j = divide.nextInt();
+        
+        int divideResult = division(i, j);
+        System.out.println("Multiplication of given three numbers: "+ divideResult);
+        divide.close();
+
 
 
     }
 }
+
+
+// Commennt multiply when trying to run division.
