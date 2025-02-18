@@ -20,3 +20,12 @@ public class L8_TypeConversionAndCasting {
     }
     
 }
+
+/*
+ * Type Conversion
+(implicit conversion)
+1) Converts automatically to larger data types.
+2) Widening (also called)
+3) Hierarchy :
+       byte ---> short ---> int ---> long ---> --->double
+ */
