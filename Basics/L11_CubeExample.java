@@ -1,4 +1,4 @@
-public class CubeExample {
+public class L11_CubeExample {
 
     static int length;
 
@@ -7,7 +7,7 @@ public class CubeExample {
     }
 
     public static void main(String[] args) {
-        CubeExample.length = 7;
+        L11_CubeExample.length = 7;
         System.out.println("The volume of cube: "+calculateVolumeOfCube());
     }
     
