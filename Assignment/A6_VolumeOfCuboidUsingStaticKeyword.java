@@ -21,7 +21,7 @@ public class A6_VolumeOfCuboidUsingStaticKeyword {
         System.out.print("Enter Height: ");
         height = scanner.nextDouble();
 
-        // Calculating and displaying the volume
+        // displaying the volume
         System.out.println("The volume of the cuboid is: " + calculateVolume());
 
         scanner.close();
