@@ -6,14 +6,16 @@ public class Outer {
     }
 
     static class Inner{
-        void displayInnerClassDetails(){
+        static void displayInnerClassDetails(){
             System.out.println("The data is from inner class");
         }
     }
     public static void main(String[] args) {
         Outer.sayHello();
 
-        Outer.Inner InnerClassObject = new Outer.Inner();
-        InnerClassObject.displayInnerClassDetails();
+        Outer.Inner.displayInnerClassDetails();
+
+        // Outer.Inner InnerClassObject = new Outer.Inner();
+        // InnerClassObject.displayInnerClassDetails();
     }
 }
