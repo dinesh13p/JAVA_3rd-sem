@@ -1,4 +1,4 @@
-public class Rectangle {
+public class Polymorphism_Rectangle {
 
     static double Area( double length, double breadth){
         return length * breadth;
