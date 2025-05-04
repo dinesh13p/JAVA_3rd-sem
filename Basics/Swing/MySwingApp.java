@@ -21,31 +21,31 @@ public class MySwingApp {
         jFrame.setLayout(null);
 
         // Username
-        JLabel userLabel = new JLabel("<html><i>Username</i></html>");
+        JLabel userLabel = new JLabel("Username");
         userLabel.setBounds(50, 40, 100, 30);
         JTextField userField = new JTextField();
         userField.setBounds(50, 70, 250, 50);
 
         // Password
-        JLabel passLabel = new JLabel("<html><i>Password</i></html>");
+        JLabel passLabel = new JLabel("Password");
         passLabel.setBounds(400, 40, 100, 30);
         JTextField passField = new JTextField();
         passField.setBounds(400, 70, 250, 50);
 
         // Fullname
-        JLabel fullLabel = new JLabel("<html><i>Fullname</i></html>");
+        JLabel fullLabel = new JLabel("Fullname");
         fullLabel.setBounds(50, 150, 100, 30);
         JTextField fullField = new JTextField();
         fullField.setBounds(50, 180, 250, 50);
 
         // Phone Number
-        JLabel phoneLabel = new JLabel("<html><i>PhoneNumber</i></html>");
+        JLabel phoneLabel = new JLabel("PhoneNumber");
         phoneLabel.setBounds(400, 150, 120, 30);
         JTextField phoneField = new JTextField();
         phoneField.setBounds(400, 180, 250, 50);
 
         // Submit Button
-        JButton submitButton = new JButton("<html><i>Submit</i></html>");
+        JButton submitButton = new JButton("Submit");
         submitButton.setBounds(50, 270, 200, 70);
 
         // Add all components
